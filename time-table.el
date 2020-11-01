@@ -49,6 +49,8 @@
       (define-key map "f" #'time-table-forward)
       (define-key map "g" #'time-table-update)
       (define-key map "h" #'describe-mode)
+      (define-key map "n" #'next-line)
+      (define-key map "p" #'previous-line)
       (define-key map "q" #'quit-window)
       (define-key map "x" #'time-table-delete-column)))
   "Keymap for elfeed-search-mode.")
